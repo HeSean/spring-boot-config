@@ -1,0 +1,12 @@
+my:
+    greeting : Test
+    list:
+        values : one,two,three
+
+db:
+    connection : "{connectionString: test}"
+    host : 2.0.0.0
+    port : 2000
+
+managment.endpoints.web.exposure.include: "*"
+spring.application.name: spring-boot-config-Test

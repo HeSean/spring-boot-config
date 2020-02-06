@@ -9,11 +9,10 @@ db:
     host : 1.0.0.0
     port : 1000
 
-#spring.profiles.active: default
+spring.profiles.active: test
 
 management.endpoints.web.exposure.include: "*"
 
 spring.cloud.config.uri: http://localhost:8888
 
 spring.application.name: spring-boot-config-Default
-
